@@ -1,0 +1,33 @@
+[ {
+    "id": "1",
+    "img" : "google-1-1 1.png",
+    "post": "Database Engineer",
+    "name": "Google LLC",
+    "location": "Dhaka,Bangladesh",
+    "salary": "100k-130k"
+},
+{
+    "id": "2",
+    "img" : "netflix-4 1.png",
+    "post": "Product Designer",
+    "name": "Netflix",
+    "location": "Mirpur,Bangladesh",
+    "salary": "90k-120k"
+},
+{
+    "id": "3",
+    "img" : "tesla-9 1.png",
+    "post": "Software Engineer",
+    "name": "Tesla",
+    "location": "Uttara,Bangladesh",
+    "salary": "120k-130k"
+},
+{
+    "id": "4",
+    "img" : "amazon.png",
+    "post": "Network Engineer",
+    "name": "Amazon",
+    "location": "Gazipur,Bangladesh",
+    "salary": "130k-150k"
+}
+]

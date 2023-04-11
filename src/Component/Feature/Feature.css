@@ -1,0 +1,15 @@
+.feature{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.feature-title{
+    text-align: center;
+}
+.des{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(112, 106, 97);
+}
+.feature-title h1{
+    margin-bottom: 0;
+}
