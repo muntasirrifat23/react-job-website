@@ -1,0 +1,13 @@
+.job{
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: center;
+}
+.job h1{
+    margin-bottom: 0;
+}
+.job h4{
+    margin-top: 0;
+    color: rgb(88, 83, 77);
+    margin-top: 10px;
+}
