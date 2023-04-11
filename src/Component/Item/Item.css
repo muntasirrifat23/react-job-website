@@ -1,0 +1,20 @@
+.item{
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: rgb(203, 222, 216);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(26, 23, 18);
+}
+.item h3,h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-top: 5px;
+}
+.flexy{
+    display: flex;
+}
+.flex{
+    margin-left: 10px;
+
+}

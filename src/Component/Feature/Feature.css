@@ -13,3 +13,7 @@
 .feature-title h1{
     margin-bottom: 0;
 }
+.feature-d{
+    display: grid;
+    grid-template-columns: repeat(2fr,1fr)
+}
