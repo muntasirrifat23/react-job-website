@@ -2,6 +2,8 @@
     margin-top: 60px;
     margin-left: 30px;
     text-align: center;
+    margin-right: 30px;
+    
 }
 .job h1{
     margin-bottom: 0;
@@ -10,4 +12,14 @@
     margin-top: 0;
     color: rgb(88, 83, 77);
     margin-top: 10px;
+}
+.header-job{
+    background-color: rgb(209, 206, 202);
+    border-radius: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
 }
