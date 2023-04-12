@@ -8,10 +8,7 @@ import Feature from './Component/Feature/Feature';
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
-      <Header></Header>
-      <Catagory></Catagory>
-      <Feature></Feature>
+      
     </div>
   );
 }

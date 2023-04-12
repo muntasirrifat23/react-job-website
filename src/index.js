@@ -3,11 +3,44 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Main from './Component/Main';
+import Home from './Component/Home';
+import Statistics from './Component/Statistics';
+import Applied from './Component/Applied';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Main></Main>,
+    children:[
+      {
+        path:'/',
+        element: <Home></Home>
+      },
+      {
+        path:'/statistics',
+        element: <Statistics></Statistics>
+      },
+      { 
+        path:'/applied',
+        element: <Applied></Applied>
+      }
+    ]
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+        <RouterProvider router={router} />
   </React.StrictMode>
 );
 

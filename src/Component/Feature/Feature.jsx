@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './Feature.css'
 import Item from '../Item/Item';
 const Feature = () => {
-    const[items, setItems]= useState([])
-    useEffect(()=>{
+    const [items, setItems] = useState([])
+    useEffect(() => {
         fetch('products.json')
-        .then(res=> res.json())
-        .then(data=>setItems(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setItems(data))
+    }, [])
     return (
-       
+
         <div className='feature'>
             <div className='feature-title'>
                 <h1>Feature Job</h1>
@@ -17,22 +17,22 @@ const Feature = () => {
             </div>
             <div className='feature-d'>
                 <div className='f-display'>
-                {
-                items.map(item=><Item
-                key={item.id}
-                item={item}
-                >
-                </Item>)
-                }
+                    {
+                        items.map(item => <Item
+                            key={item.id}
+                            item={item}
+                        >
+                        </Item>)
+                    }
                 </div>
-         
+
             </div>
             <div className='see-all'>
-            <button className='btn-see'>
-                See All Jobs
-            </button>
+                <button className='btn-see'>
+                    See All Jobs
+                </button>
             </div>
-            
+
         </div>
     );
 };

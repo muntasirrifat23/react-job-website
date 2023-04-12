@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nav.css';
+import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <div className='nav'>
@@ -7,10 +8,10 @@ const Nav = () => {
                 <h1>Bangali_Job</h1>
             </div>
             <div className='anchor'>
-                <a href="/home">Home</a>
-                <a href="/statistics">Statistics</a>
-                <a href="/applied">Applied Jobs</a>
-                <a href="/blog">blog</a>
+                <Link to='/'>Home</Link>
+                <Link to="/statistics">Statistics</Link>
+                <Link to="/applied">Applied Jobs</Link>
+                <Link to="/blog">Blog</Link>
             </div>
             <div>
                 <button className='btn-start'>Start Applying</button>
