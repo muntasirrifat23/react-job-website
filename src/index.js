@@ -11,9 +11,9 @@ import {
 } from "react-router-dom";
 import Main from './Component/Main';
 import Home from './Component/Home';
-import Applied from './Component/Applied';
 import Statistics from './Component/Statistics/Statistics';
 import Blog from './Component/Blog/Blog';
+import Applied from './Component/Applied/Applied';
 
 
 const router = createBrowserRouter([
