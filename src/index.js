@@ -11,8 +11,9 @@ import {
 } from "react-router-dom";
 import Main from './Component/Main';
 import Home from './Component/Home';
-import Statistics from './Component/Statistics';
 import Applied from './Component/Applied';
+import Blog from './Component/Blog';
+import Statistics from './Component/Statistics/Statistics';
 
 
 const router = createBrowserRouter([
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
       { 
         path:'/applied',
         element: <Applied></Applied>
-      }
+      },
+      { 
+        path:'/blog',
+        element: <Blog></Blog>
+      },
     ]
   },
 ]);
