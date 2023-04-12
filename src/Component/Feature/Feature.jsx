@@ -27,6 +27,12 @@ const Feature = () => {
                 </div>
          
             </div>
+            <div className='see-all'>
+            <button className='btn-see'>
+                See All Jobs
+            </button>
+            </div>
+            
         </div>
     );
 };

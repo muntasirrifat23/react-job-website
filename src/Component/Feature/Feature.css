@@ -17,3 +17,19 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.feature-d{
+    
+    margin-right: 40px;
+}
+.btn-see{
+    background-color: rgb(27, 80, 91);
+    color: white;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.see-all{
+    text-align: center;
+    margin-top: 10px;
+}
