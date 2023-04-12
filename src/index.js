@@ -12,8 +12,8 @@ import {
 import Main from './Component/Main';
 import Home from './Component/Home';
 import Applied from './Component/Applied';
-import Blog from './Component/Blog';
 import Statistics from './Component/Statistics/Statistics';
+import Blog from './Component/Blog/Blog';
 
 
 const router = createBrowserRouter([
