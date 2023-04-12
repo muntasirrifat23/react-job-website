@@ -1,7 +1,7 @@
 .item{
     margin-top: 20px;
     margin-left: 40px;
-    background-color: rgb(203, 222, 216);
+    background-color: rgb(192, 210, 204);
     padding: 10px;
     border-radius: 10px;
     color: rgb(26, 23, 18);
@@ -17,4 +17,12 @@
 .flex{
     margin-left: 10px;
 
+}
+.btn-view{
+    background-color: rgb(62, 156, 175);
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
 }

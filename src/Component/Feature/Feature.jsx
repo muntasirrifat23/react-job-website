@@ -16,13 +16,16 @@ const Feature = () => {
                 <h4 className='des'>Find your best job for better career</h4>
             </div>
             <div className='feature-d'>
-            {
+                <div className='f-display'>
+                {
                 items.map(item=><Item
                 key={item.id}
                 item={item}
                 >
                 </Item>)
-            }
+                }
+                </div>
+         
             </div>
         </div>
     );

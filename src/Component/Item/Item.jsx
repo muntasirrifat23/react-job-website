@@ -12,6 +12,9 @@ const Item = ({item}) => {
                 <h4>{location}</h4>
                 <h4 className='flex'>{salary}</h4>
             </div>
+            <button className='
+            btn-view'>
+                View Details</button>
         </div>
     );
 };
