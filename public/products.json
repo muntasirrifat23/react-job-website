@@ -4,7 +4,9 @@
     "post": "Database Engineer",
     "name": "Google LLC",
     "location": "Dhaka,Bangladesh",
-    "salary": "100k-130k"
+    "salary": "100k-130k",
+    "job1": "Remote",
+    "job2": "Full Time"
 },
 {
     "id": "2",
@@ -12,7 +14,9 @@
     "post": "Product Designer",
     "name": "Netflix",
     "location": "Mirpur,Bangladesh",
-    "salary": "90k-120k"
+    "salary": "90k-120k",
+    "job1": "Onsite",
+    "job2": "Remote"
 },
 {
     "id": "3",
@@ -20,7 +24,9 @@
     "post": "Software Engineer",
     "name": "Tesla",
     "location": "Uttara,Bangladesh",
-    "salary": "120k-130k"
+    "salary": "120k-130k",
+    "job1": "Onsite",
+    "job2": "Full Time"
 },
 {
     "id": "4",
@@ -28,6 +34,8 @@
     "post": "Network Engineer",
     "name": "Amazon",
     "location": "Gazipur,Bangladesh",
-    "salary": "130k-150k"
+    "salary": "130k-150k",
+    "job1": "Remote",
+    "job2": "Part Time"
 }
 ]

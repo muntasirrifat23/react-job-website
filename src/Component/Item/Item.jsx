@@ -6,12 +6,16 @@ import { faLocationDot, faDollar } from '@fortawesome/free-solid-svg-icons'
 
 const Item = ({item}) => {
     console.log(item);
-    const{img,post,name,location,salary}=item;
+    const{img,post,name,location,salary,job1,job2}=item;
     return (
         <div className='item'>
             <img src={img} alt="" />
             <h3>{post}</h3>
             <h4>{name}</h4>
+            <div>
+                <button  className='btn-job1'>{job1}</button>
+                <button  className='btn-job2'>{job2}</button>
+            </div>
             <div className='flexy'>
                 <h4> 
                 <FontAwesomeIcon icon={faLocationDot} />
